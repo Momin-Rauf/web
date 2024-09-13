@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently doing my internship at Timechain labs",
-    description: "The Inside Scoop",
+    title: "Currently doing my internship at Walee lab-Seecs",
+    description: "",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -70,12 +70,13 @@ export const gridItems = [
 ];
 
 export const projects = [
+  
   {
     id: 1,
     title: "TrueCharity MVP: Blockchain based Donation Web application",
     des: "TrueCharity Donations aims to increase transparency and trust in charitable donations by leveraging blockchain technology. Charities can upload proofs of their expenditures, which are recorded and matched to specific donations, ensuring donors that their contributions are used effectively.",
     img: "/truecharity.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/tail.svg"],
     link: "https://truecharity-web3-ccw3.vercel.app/",
   },
   {
@@ -83,8 +84,8 @@ export const projects = [
     title: "Seven Estate",
     des: "MERN full Stack Application for Real Estate",
     img: "/state.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://github.com/Momin-Rauf/real-Estate",
   },
   {
     id: 3,
@@ -110,7 +111,22 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://github.com/Momin-Rauf/Doctech_laravel",
   },
-  
+  {
+    id: 7,
+    title: "HomePage using GSAP",
+    des: "A Simple homepage using Gsap for animations and Tailwindcss along with three.js",
+    img: "/true.png",
+    iconLists: [ "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://homepage-zeta-cyan.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "3D Art Gallery",
+    des: "This is a 3D art gallery made with Html css js and three.js",
+    img: "/art123.png",
+    iconLists: [ "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://github.com/Momin-Rauf/art-gallery-three.js",
+  },
 ];
 
 export const testimonials = [
@@ -153,7 +169,6 @@ export const companies = [
     img: "/encode.png",
     nameImg: "/encode.png",
   },
-  
 ];
 
 export const workExperience = [
@@ -205,3 +220,4 @@ export const socialMedia = [
     img: "/link.svg",
   },
 ];
+
